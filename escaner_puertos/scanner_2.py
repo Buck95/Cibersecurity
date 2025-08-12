@@ -32,7 +32,7 @@ def identificar_servicio(sock, puerto):
     except:
         return "Servicio desconocido"
 
-# Pedir datos al usuario
+# Se Piden datos al usuario
 ip = input("Introduce la IP que deseas escanear: ")
 start_port = int(input("Puerto inicial: "))
 end_port = int(input("Puerto final: "))

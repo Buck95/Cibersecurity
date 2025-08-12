@@ -16,6 +16,7 @@ def escanear_puerto(ip, puerto):
     except:
         return False, None
 
+#Se define la función 
 def identificar_servicio(sock, puerto, ip):
     try:
         if puerto == 21:  # FTP

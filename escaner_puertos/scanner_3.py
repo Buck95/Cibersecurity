@@ -44,14 +44,14 @@ def identificar_servicio(sock, puerto, ip):
                 for linea in respuesta.split("\n"):
                     if "Server:" in linea:
                         return linea.strip()
-            return "HTTPS (sin info de servidor)"
+            return "HTTPS (sin info. de servidor)"
         else:
             return "Servicio desconocido"
     except:
         return "Servicio desconocido"
 
 # Pedir datos al usuario
-ip = input("Introduce la IP que deseas escanear: ")
+ip = input("Introduce la IP a escanear: ")
 start_port = int(input("Puerto inicial: "))
 end_port = int(input("Puerto final: "))
 

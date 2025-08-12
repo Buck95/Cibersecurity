@@ -16,7 +16,7 @@ def escanear_puerto(ip, puerto):
     sock.close()
     return result == 0
 
-#Creamos un bucle para escaner el rango 
+#Creamos un bucle para escanear el rango 
 
 print(f"\nEscaneando {ip} desde el puerto {start_port} al {end_port}...\n")
 tiempo_inicio = time.time()

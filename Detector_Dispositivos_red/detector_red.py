@@ -1,4 +1,3 @@
-#importamos las librerias necesarias para este proyecto 
 from scapy.all import ARP, Ether, srp
 from mac_vendor_lookup import MacLookup
 import socket
